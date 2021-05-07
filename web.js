@@ -3,8 +3,8 @@
 const student= ["ali","sadf","hina","asad"];
 // task no 2:Declare an empty array using JS object notation to store
 // student names in future.
-const student= [];
-const student=["lareb","maria","hafsa","iffa"];
+const student1= [];
+const student2=["lareb","maria","hafsa","iffa"];
 // task no 3:Declare and initialize a strings array.
 let arr = new Array ("hello","world");
 console.log(arr);
@@ -100,7 +100,7 @@ document.write(colors.length);
 // sort the array in ascending order using Array’s sort
 // method.
 let stuNumbers = ["hina", 18 , "huma" ,22, "maria",  10  ];
-numbers.sort((a,b) => {
+stuNumbers.sort((a,b) => {
     if(a > b) return 1;
     if(a < b) return -1;
     return 0;
@@ -124,3 +124,32 @@ console.log(cities);
 // (Use array’s join method)
 var a  = ["this","is","my","cat"];
 document.write(a);
+
+// task no 13:Create a new array. Store values one by one in such a way
+// that you can access the values in the order in which they
+// were stored. (FIFO-First In First Out)
+var array = [];
+array = ["this"];
+array =["is"];
+array=["my"];
+array=["cat"];
+console.log(array);
+var str = "This Is My Cat";
+var res = str.split(" ");
+
+
+// task no 14: Create a new array. Store values one by one in such a way
+// that you can access the values in reverse order. (Last In-
+// First Out)
+var array = [];
+array = ["keybord"];
+array =["mouse"];
+array=["printer"];
+array=["monitor"];
+console.log(array);
+// task no 15: Write a program to store phone manufacturers (Apple,
+//     Samsung, Motorola, Nokia, Sony & Haier) in an array.
+//     Display the following dropdown/select menu in your
+//     browser using document.write() method:
+var a = ("Apple, Samsung, Motorola, Nokia, Sony , Haier");
+alert(a);
